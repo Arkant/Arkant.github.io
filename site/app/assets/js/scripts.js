@@ -6,18 +6,12 @@
  * @version 1.0.5
  * Copyright 2018. MIT licensed.
  */
-(function($){
-  $(function() {
-    $('.menu__icon').on('click', function() {
-      $(this).closest('.menu')
-        .toggleClass('menu_state_open');
-    });
-    
-    $('.menu__links-item').on('click', function() {
-      // do something
+(function ($, window, document, undefined) {
 
-      $(this).closest('.menu')
-        .removeClass('menu_state_open');
-    });
+  'use strict';
+
+  $(function () {
+    // FastShell
   });
-})(jQuery);
+
+})(jQuery, window, document);
