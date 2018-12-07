@@ -200,12 +200,14 @@
       text-align: center;
       color: #ffffff;
     }
-
+    .hello {
+        min-height: 500px;
+    }
     .banner-text {
         display: block;
         color: #fff;
         margin-bottom: 60px;
-        padding-top: 190px;
+        padding-top: 99px;
     }
     
     .banner-text h1 {
