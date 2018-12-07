@@ -575,6 +575,12 @@ body {
   position: relative;
   left: 82px; }
 
+.sidebar-down-under {
+  position: relative;
+  width: 0;
+  height: 0;
+  right: 20px; }
+
 .email-class li {
   display: -ms-flexbox;
   display: flex; }
